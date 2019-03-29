@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="cR1-Iw-O3a">
+    <device id="retina5_9" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="Stack View standard spacing" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tipjar View Controller-->
+        <scene sceneID="9EZ-dl-G39">
+            <objects>
+                <viewController id="cR1-Iw-O3a" customClass="TipJarViewController" customModule="Cironnup" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="rpv-bD-PcT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pSa-21-uzu">
+                                <rect key="frame" x="15" y="196" width="345" height="420"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mrz-Aa-dPw">
+                                        <rect key="frame" x="0.0" y="0.0" width="345" height="352"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="Crd-cF-kuN">
+                                                <rect key="frame" x="8" y="92.333333333333329" width="329" height="167.33333333333337"/>
+                                                <subviews>
+                                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VLr-7e-zlI">
+                                                        <rect key="frame" x="141.66666666666666" y="0.0" width="46" height="46"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="width" constant="46" id="rR2-0L-0ce"/>
+                                                            <constraint firstAttribute="height" constant="46" id="wHn-6a-PW9"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Thanks for using Cironnup." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OAJ-TW-kfW">
+                                                        <rect key="frame" x="54.333333333333329" y="66" width="220.66666666666669" height="20.333333333333329"/>
+                                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a0r-ym-HQ5">
+                                                        <rect key="frame" x="13" y="106.33333333333337" width="303.33333333333331" height="61"/>
+                                                        <string key="text">Cironnup is free and free of ads.
+If you like this app and have fun with it, what about leaving a dollar in the tip jar.</string>
+                                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                        <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                    </stackView>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rpI-oh-VXi">
+                                        <rect key="frame" x="0.0" y="352" width="345" height="68"/>
+                                        <color key="backgroundColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </view>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacingType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="30F-1p-pL4">
+                                        <rect key="frame" x="0.0" y="352" width="345" height="68"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Support the development of Cironnup with a tip:" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OhV-AJ-7CY">
+                                                <rect key="frame" x="8" y="8" width="329" height="44"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="44" id="AXH-Zy-omd"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
+                                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="SPW-2w-pxg">
+                                                <rect key="frame" x="8" y="60" width="329" height="0.0"/>
+                                            </stackView>
+                                        </subviews>
+                                        <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WLZ-S4-hSn">
+                                        <rect key="frame" x="8" y="8" width="30" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="30" id="M9J-AZ-RIV"/>
+                                            <constraint firstAttribute="height" constant="30" id="nrT-R1-vkB"/>
+                                        </constraints>
+                                        <state key="normal" title="X"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="mrz-Aa-dPw" firstAttribute="top" secondItem="pSa-21-uzu" secondAttribute="top" id="02K-Xn-55O"/>
+                                    <constraint firstAttribute="bottom" secondItem="mrz-Aa-dPw" secondAttribute="bottom" priority="500" id="2uQ-JI-Gun"/>
+                                    <constraint firstItem="30F-1p-pL4" firstAttribute="top" secondItem="mrz-Aa-dPw" secondAttribute="bottom" id="7Of-I7-Df1"/>
+                                    <constraint firstAttribute="bottom" secondItem="rpI-oh-VXi" secondAttribute="bottom" id="FKT-3o-cLu"/>
+                                    <constraint firstAttribute="height" constant="420" id="J3c-rc-ayy"/>
+                                    <constraint firstItem="mrz-Aa-dPw" firstAttribute="leading" secondItem="pSa-21-uzu" secondAttribute="leading" id="NOV-WE-TYh"/>
+                                    <constraint firstItem="rpI-oh-VXi" firstAttribute="top" secondItem="pSa-21-uzu" secondAttribute="bottom" priority="750" id="SJ9-ym-alm"/>
+                                    <constraint firstItem="30F-1p-pL4" firstAttribute="leading" secondItem="pSa-21-uzu" secondAttribute="leading" id="Uu3-CB-vUZ"/>
+                                    <constraint firstItem="rpI-oh-VXi" firstAttribute="leading" secondItem="pSa-21-uzu" secondAttribute="leading" id="Y9c-PT-CmU"/>
+                                    <constraint firstAttribute="bottom" secondItem="30F-1p-pL4" secondAttribute="bottom" id="YJS-aS-Jws"/>
+                                    <constraint firstItem="WLZ-S4-hSn" firstAttribute="top" secondItem="pSa-21-uzu" secondAttribute="top" constant="8" id="bVw-l4-hiT"/>
+                                    <constraint firstAttribute="trailing" secondItem="rpI-oh-VXi" secondAttribute="trailing" id="exg-cO-PMY"/>
+                                    <constraint firstItem="rpI-oh-VXi" firstAttribute="top" secondItem="30F-1p-pL4" secondAttribute="top" id="fKe-40-vKU"/>
+                                    <constraint firstAttribute="trailing" secondItem="30F-1p-pL4" secondAttribute="trailing" id="gSh-eu-yaR"/>
+                                    <constraint firstAttribute="trailing" secondItem="mrz-Aa-dPw" secondAttribute="trailing" id="lmD-dk-9uk"/>
+                                    <constraint firstItem="WLZ-S4-hSn" firstAttribute="leading" secondItem="pSa-21-uzu" secondAttribute="leading" constant="8" id="tnn-F6-t3Y"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="pSa-21-uzu" firstAttribute="leading" secondItem="JME-nb-r3I" secondAttribute="leading" constant="15" id="GHs-v2-LdJ"/>
+                            <constraint firstItem="pSa-21-uzu" firstAttribute="centerY" secondItem="rpv-bD-PcT" secondAttribute="centerY" id="OF9-97-cwt"/>
+                            <constraint firstItem="JME-nb-r3I" firstAttribute="trailing" secondItem="pSa-21-uzu" secondAttribute="trailing" constant="15" id="qqf-YQ-l8T"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="JME-nb-r3I"/>
+                    </view>
+                    <connections>
+                        <outlet property="closeButton" destination="WLZ-S4-hSn" id="3ug-AZ-mgf"/>
+                        <outlet property="contentView" destination="pSa-21-uzu" id="t4R-Hg-fkO"/>
+                        <outlet property="contentViewBottonConstraint" destination="7Of-I7-Df1" id="VUI-iS-klO"/>
+                        <outlet property="descriptionLabel" destination="a0r-ym-HQ5" id="a8M-m1-hPa"/>
+                        <outlet property="heartImageView" destination="VLr-7e-zlI" id="6aW-d4-3Dd"/>
+                        <outlet property="purchaseButtonStackView" destination="SPW-2w-pxg" id="zYe-Pj-gLr"/>
+                        <outlet property="purchaseContentBackgroundTopConstrant" destination="fKe-40-vKU" id="BRM-2p-Ezj"/>
+                        <outlet property="purchaseContentView" destination="30F-1p-pL4" id="gEG-dU-Ic1"/>
+                        <outlet property="titleLabel" destination="OAJ-TW-kfW" id="UZp-Gy-3DT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="FF0-Fk-58z" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <customObject id="Vhx-l5-hQO" customClass="TipJarModuleInitializer" customModule="Cironnup" customModuleProvider="target">
+                    <connections>
+                        <outlet property="tipjarViewController" destination="cR1-Iw-O3a" id="TXl-1i-sg5"/>
+                    </connections>
+                </customObject>
+            </objects>
+            <point key="canvasLocation" x="140" y="132.26600985221674"/>
+        </scene>
+    </scenes>
+</document>

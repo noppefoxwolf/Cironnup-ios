@@ -1,0 +1,35 @@
+### Headers settings
+company: 
+
+### Xcode project settings
+project_name: gabbie-ios
+prefix: 
+xcodeproj_path: gabbie-ios.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: gabbie-ios
+
+# The file path for new modules
+project_file_path: gabbie-ios/VIPER/
+
+# The Xcode group path to new modules
+project_group_path: gabbie-ios/VIPER/
+
+### Tests generation settings section
+# The tests target name
+test_target: gabbieTests
+
+# The file path for new tests
+test_file_path: gabbieTests/
+
+# The Xcode group path to new tests
+test_group_path: gabbieTests/
+
+### Dependencies settings section
+podfile_path: Podfile
+cartfile_path: Cartfile
+
+### Templates
+templates:
+- {name: swifty_viper}

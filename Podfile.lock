@@ -1,0 +1,36 @@
+PODS:
+  - 1PasswordExtension (1.8.5)
+  - AppIconGen (0.2.0)
+  - Fakery (3.4.0)
+  - GabKit (0.25.0)
+  - LicensePlist (1.9.1)
+  - SwiftGen (6.0.2)
+
+DEPENDENCIES:
+  - 1PasswordExtension
+  - AppIconGen
+  - Fakery
+  - GabKit
+  - LicensePlist
+  - SwiftGen
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - 1PasswordExtension
+    - AppIconGen
+    - Fakery
+    - GabKit
+    - LicensePlist
+    - SwiftGen
+
+SPEC CHECKSUMS:
+  1PasswordExtension: 0e95bdea64ec8ff2f4f693be5467a09fac42a83d
+  AppIconGen: a20e4c907426936b7ff918541d9c6584249fb97a
+  Fakery: 885e894a3e7c392e1da96c6e46a1abe5a0b28686
+  GabKit: 6f7345645296d0b84431b9b222abb07c6f47f558
+  LicensePlist: c39d3fd5cd100f52e97463d44426f2608a42f782
+  SwiftGen: e5b047067aa84082826a0c4f1c4c2ddc95bcf74c
+
+PODFILE CHECKSUM: db578ca9bf4a62d0a4817345d64f324f07183a24
+
+COCOAPODS: 1.6.0.beta.2

@@ -1,0 +1,19 @@
+xcassets:
+  inputs:
+    - ../Resources/Assets.xcassets
+  outputs:
+    - templateName: swift4
+      output: Assets.swift
+
+ib:
+  inputs: ../
+  outputs:
+    - templateName: scenes-swift4
+      output: Storyboard Scenes.swift
+
+colors:
+  inputs:
+    - ../Resources/Colors.txt
+  outputs:
+    - templateName: swift4
+      output: Colors.swift

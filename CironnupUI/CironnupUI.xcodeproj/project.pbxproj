@@ -1,0 +1,817 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2CC826B7495676B206E79FC1 /* Pods_CironnupUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F81F158931F5F4EC59EA69D4 /* Pods_CironnupUI.framework */; };
+		372EFC78218220C500B85A11 /* CironnupUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372EFC6E218220C500B85A11 /* CironnupUI.framework */; };
+		372EFC7D218220C500B85A11 /* CironnupUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372EFC7C218220C500B85A11 /* CironnupUITests.swift */; };
+		372EFC7F218220C500B85A11 /* CironnupUI.h in Headers */ = {isa = PBXBuildFile; fileRef = 372EFC71218220C500B85A11 /* CironnupUI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		372EFC8F218220D700B85A11 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372EFC8E218220D700B85A11 /* AppDelegate.swift */; };
+		372EFC91218220D700B85A11 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372EFC90218220D700B85A11 /* ViewController.swift */; };
+		372EFC94218220D700B85A11 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372EFC92218220D700B85A11 /* Main.storyboard */; };
+		372EFC96218220DA00B85A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372EFC95218220DA00B85A11 /* Assets.xcassets */; };
+		372EFC99218220DA00B85A11 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 372EFC97218220DA00B85A11 /* LaunchScreen.storyboard */; };
+		372EFCA02182230100B85A11 /* CironnupUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372EFC6E218220C500B85A11 /* CironnupUI.framework */; };
+		372EFCA12182230100B85A11 /* CironnupUI.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 372EFC6E218220C500B85A11 /* CironnupUI.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		372EFCA72182256B00B85A11 /* SnapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372EFCA62182256B00B85A11 /* SnapKit.framework */; };
+		372EFCC621834F0D00B85A11 /* AttachmentCollectionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372EFCC521834F0D00B85A11 /* AttachmentCollectionView.swift */; };
+		372EFCC9218360B600B85A11 /* DifferenceKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372EFCC8218360B600B85A11 /* DifferenceKit.framework */; };
+		372EFCCD2183828F00B85A11 /* AttachmentCollectionLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372EFCCC2183828F00B85A11 /* AttachmentCollectionLayout.swift */; };
+		372EFCCF218382D200B85A11 /* AttachmentCollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372EFCCE218382D200B85A11 /* AttachmentCollectionDataSource.swift */; };
+		372EFCD12183830500B85A11 /* Attachment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372EFCD02183830500B85A11 /* Attachment.swift */; };
+		372EFCD32183833B00B85A11 /* AttachmentCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372EFCD22183833B00B85A11 /* AttachmentCollectionViewCell.swift */; };
+		372EFCD52183854F00B85A11 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 372EFCD42183854F00B85A11 /* Assets.xcassets */; };
+		372EFCDD21838A4100B85A11 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372EFCDC21838A4000B85A11 /* Assets.swift */; };
+		372EFCE12184281F00B85A11 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 372EFCE02184281F00B85A11 /* UIView+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		372EFC79218220C500B85A11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 372EFC65218220C500B85A11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 372EFC6D218220C500B85A11;
+			remoteInfo = CironnupUI;
+		};
+		372EFCA22182230100B85A11 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 372EFC65218220C500B85A11 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 372EFC6D218220C500B85A11;
+			remoteInfo = CironnupUI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		372EFCA42182230100B85A11 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				372EFCA12182230100B85A11 /* CironnupUI.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		372EFC6E218220C500B85A11 /* CironnupUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CironnupUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		372EFC71218220C500B85A11 /* CironnupUI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CironnupUI.h; sourceTree = "<group>"; };
+		372EFC72218220C500B85A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		372EFC77218220C500B85A11 /* CironnupUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CironnupUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		372EFC7C218220C500B85A11 /* CironnupUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CironnupUITests.swift; sourceTree = "<group>"; };
+		372EFC7E218220C500B85A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		372EFC8C218220D700B85A11 /* CironnupUIApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CironnupUIApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		372EFC8E218220D700B85A11 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		372EFC90218220D700B85A11 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		372EFC93218220D700B85A11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		372EFC95218220DA00B85A11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		372EFC98218220DA00B85A11 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		372EFC9A218220DA00B85A11 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		372EFCA62182256B00B85A11 /* SnapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SnapKit.framework; path = ../Carthage/Build/iOS/SnapKit.framework; sourceTree = "<group>"; };
+		372EFCC521834F0D00B85A11 /* AttachmentCollectionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentCollectionView.swift; sourceTree = "<group>"; };
+		372EFCC8218360B600B85A11 /* DifferenceKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DifferenceKit.framework; path = ../Carthage/Build/iOS/DifferenceKit.framework; sourceTree = "<group>"; };
+		372EFCCC2183828F00B85A11 /* AttachmentCollectionLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentCollectionLayout.swift; sourceTree = "<group>"; };
+		372EFCCE218382D200B85A11 /* AttachmentCollectionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentCollectionDataSource.swift; sourceTree = "<group>"; };
+		372EFCD02183830500B85A11 /* Attachment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Attachment.swift; sourceTree = "<group>"; };
+		372EFCD22183833B00B85A11 /* AttachmentCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AttachmentCollectionViewCell.swift; sourceTree = "<group>"; };
+		372EFCD42183854F00B85A11 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		372EFCDA2183892E00B85A11 /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = swiftgen.yml; sourceTree = "<group>"; };
+		372EFCDC21838A4000B85A11 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		372EFCE02184281F00B85A11 /* UIView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		884B72FE71C66C97C5DFBED2 /* Pods-CironnupUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CironnupUI.debug.xcconfig"; path = "Target Support Files/Pods-CironnupUI/Pods-CironnupUI.debug.xcconfig"; sourceTree = "<group>"; };
+		9822F1BF712BE8B6253F66A2 /* Pods-CironnupUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CironnupUI.release.xcconfig"; path = "Target Support Files/Pods-CironnupUI/Pods-CironnupUI.release.xcconfig"; sourceTree = "<group>"; };
+		F81F158931F5F4EC59EA69D4 /* Pods_CironnupUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CironnupUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		372EFC6B218220C500B85A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372EFCC9218360B600B85A11 /* DifferenceKit.framework in Frameworks */,
+				372EFCA72182256B00B85A11 /* SnapKit.framework in Frameworks */,
+				2CC826B7495676B206E79FC1 /* Pods_CironnupUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372EFC74218220C500B85A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372EFC78218220C500B85A11 /* CironnupUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372EFC89218220D700B85A11 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372EFCA02182230100B85A11 /* CironnupUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		372EFC64218220C500B85A11 = {
+			isa = PBXGroup;
+			children = (
+				372EFC70218220C500B85A11 /* CironnupUI */,
+				372EFC7B218220C500B85A11 /* CironnupUITests */,
+				372EFC8D218220D700B85A11 /* CironnupUIApp */,
+				372EFC6F218220C500B85A11 /* Products */,
+				372EFCA52182256B00B85A11 /* Frameworks */,
+				9CB5F3E70787D6CDC45BADFA /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		372EFC6F218220C500B85A11 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				372EFC6E218220C500B85A11 /* CironnupUI.framework */,
+				372EFC77218220C500B85A11 /* CironnupUITests.xctest */,
+				372EFC8C218220D700B85A11 /* CironnupUIApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		372EFC70218220C500B85A11 /* CironnupUI */ = {
+			isa = PBXGroup;
+			children = (
+				372EFCE22184282700B85A11 /* Extensions */,
+				372EFCD8218388F600B85A11 /* Resources */,
+				372EFCD7218388EF00B85A11 /* SwiftGen */,
+				372EFCCB2183828100B85A11 /* AttachmentCollectionView */,
+				372EFC71218220C500B85A11 /* CironnupUI.h */,
+				372EFC72218220C500B85A11 /* Info.plist */,
+			);
+			path = CironnupUI;
+			sourceTree = "<group>";
+		};
+		372EFC7B218220C500B85A11 /* CironnupUITests */ = {
+			isa = PBXGroup;
+			children = (
+				372EFC7C218220C500B85A11 /* CironnupUITests.swift */,
+				372EFC7E218220C500B85A11 /* Info.plist */,
+			);
+			path = CironnupUITests;
+			sourceTree = "<group>";
+		};
+		372EFC8D218220D700B85A11 /* CironnupUIApp */ = {
+			isa = PBXGroup;
+			children = (
+				372EFC8E218220D700B85A11 /* AppDelegate.swift */,
+				372EFC90218220D700B85A11 /* ViewController.swift */,
+				372EFC92218220D700B85A11 /* Main.storyboard */,
+				372EFC95218220DA00B85A11 /* Assets.xcassets */,
+				372EFC97218220DA00B85A11 /* LaunchScreen.storyboard */,
+				372EFC9A218220DA00B85A11 /* Info.plist */,
+			);
+			path = CironnupUIApp;
+			sourceTree = "<group>";
+		};
+		372EFCA52182256B00B85A11 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				372EFCC8218360B600B85A11 /* DifferenceKit.framework */,
+				372EFCA62182256B00B85A11 /* SnapKit.framework */,
+				F81F158931F5F4EC59EA69D4 /* Pods_CironnupUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		372EFCCB2183828100B85A11 /* AttachmentCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				372EFCC521834F0D00B85A11 /* AttachmentCollectionView.swift */,
+				372EFCCC2183828F00B85A11 /* AttachmentCollectionLayout.swift */,
+				372EFCCE218382D200B85A11 /* AttachmentCollectionDataSource.swift */,
+				372EFCD02183830500B85A11 /* Attachment.swift */,
+				372EFCD22183833B00B85A11 /* AttachmentCollectionViewCell.swift */,
+			);
+			path = AttachmentCollectionView;
+			sourceTree = "<group>";
+		};
+		372EFCD7218388EF00B85A11 /* SwiftGen */ = {
+			isa = PBXGroup;
+			children = (
+				372EFCDC21838A4000B85A11 /* Assets.swift */,
+				372EFCDA2183892E00B85A11 /* swiftgen.yml */,
+			);
+			path = SwiftGen;
+			sourceTree = "<group>";
+		};
+		372EFCD8218388F600B85A11 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				372EFCD42183854F00B85A11 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		372EFCE22184282700B85A11 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				372EFCE02184281F00B85A11 /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		9CB5F3E70787D6CDC45BADFA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				884B72FE71C66C97C5DFBED2 /* Pods-CironnupUI.debug.xcconfig */,
+				9822F1BF712BE8B6253F66A2 /* Pods-CironnupUI.release.xcconfig */,
+			);
+			name = Pods;
+			path = ../Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		372EFC69218220C500B85A11 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372EFC7F218220C500B85A11 /* CironnupUI.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		372EFC6D218220C500B85A11 /* CironnupUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372EFC82218220C500B85A11 /* Build configuration list for PBXNativeTarget "CironnupUI" */;
+			buildPhases = (
+				21EC10D3C968C3872C08BD18 /* [CP] Check Pods Manifest.lock */,
+				372EFC69218220C500B85A11 /* Headers */,
+				372EFCD6218388BE00B85A11 /* [SwiftGen] */,
+				372EFC6A218220C500B85A11 /* Sources */,
+				372EFC6B218220C500B85A11 /* Frameworks */,
+				372EFC6C218220C500B85A11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CironnupUI;
+			productName = CironnupUI;
+			productReference = 372EFC6E218220C500B85A11 /* CironnupUI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		372EFC76218220C500B85A11 /* CironnupUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372EFC85218220C500B85A11 /* Build configuration list for PBXNativeTarget "CironnupUITests" */;
+			buildPhases = (
+				372EFC73218220C500B85A11 /* Sources */,
+				372EFC74218220C500B85A11 /* Frameworks */,
+				372EFC75218220C500B85A11 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				372EFC7A218220C500B85A11 /* PBXTargetDependency */,
+			);
+			name = CironnupUITests;
+			productName = CironnupUITests;
+			productReference = 372EFC77218220C500B85A11 /* CironnupUITests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		372EFC8B218220D700B85A11 /* CironnupUIApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 372EFC9B218220DA00B85A11 /* Build configuration list for PBXNativeTarget "CironnupUIApp" */;
+			buildPhases = (
+				372EFC88218220D700B85A11 /* Sources */,
+				372EFCC72183605200B85A11 /* [Carthage] */,
+				372EFC89218220D700B85A11 /* Frameworks */,
+				372EFC8A218220D700B85A11 /* Resources */,
+				372EFCA42182230100B85A11 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				372EFCA32182230100B85A11 /* PBXTargetDependency */,
+			);
+			name = CironnupUIApp;
+			productName = CironnupUIApp;
+			productReference = 372EFC8C218220D700B85A11 /* CironnupUIApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		372EFC65218220C500B85A11 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Tomoya Hirano";
+				TargetAttributes = {
+					372EFC6D218220C500B85A11 = {
+						CreatedOnToolsVersion = 10.0;
+						LastSwiftMigration = 1000;
+					};
+					372EFC76218220C500B85A11 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					372EFC8B218220D700B85A11 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 372EFC68218220C500B85A11 /* Build configuration list for PBXProject "CironnupUI" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 372EFC64218220C500B85A11;
+			productRefGroup = 372EFC6F218220C500B85A11 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				372EFC6D218220C500B85A11 /* CironnupUI */,
+				372EFC76218220C500B85A11 /* CironnupUITests */,
+				372EFC8B218220D700B85A11 /* CironnupUIApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		372EFC6C218220C500B85A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372EFCD52183854F00B85A11 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372EFC75218220C500B85A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372EFC8A218220D700B85A11 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372EFC99218220DA00B85A11 /* LaunchScreen.storyboard in Resources */,
+				372EFC96218220DA00B85A11 /* Assets.xcassets in Resources */,
+				372EFC94218220D700B85A11 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		21EC10D3C968C3872C08BD18 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CironnupUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		372EFCC72183605200B85A11 /* [Carthage] */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[Carthage]";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "carthage-copy-frameworks\n";
+		};
+		372EFCD6218388BE00B85A11 /* [SwiftGen] */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "[SwiftGen]";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "$PODS_ROOT/SwiftGen/bin/swiftgen config run --config $SRCROOT/CironnupUI/SwiftGen/swiftgen.yml\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		372EFC6A218220C500B85A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372EFCE12184281F00B85A11 /* UIView+Extensions.swift in Sources */,
+				372EFCD12183830500B85A11 /* Attachment.swift in Sources */,
+				372EFCD32183833B00B85A11 /* AttachmentCollectionViewCell.swift in Sources */,
+				372EFCDD21838A4100B85A11 /* Assets.swift in Sources */,
+				372EFCCF218382D200B85A11 /* AttachmentCollectionDataSource.swift in Sources */,
+				372EFCCD2183828F00B85A11 /* AttachmentCollectionLayout.swift in Sources */,
+				372EFCC621834F0D00B85A11 /* AttachmentCollectionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372EFC73218220C500B85A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372EFC7D218220C500B85A11 /* CironnupUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		372EFC88218220D700B85A11 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				372EFC91218220D700B85A11 /* ViewController.swift in Sources */,
+				372EFC8F218220D700B85A11 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		372EFC7A218220C500B85A11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 372EFC6D218220C500B85A11 /* CironnupUI */;
+			targetProxy = 372EFC79218220C500B85A11 /* PBXContainerItemProxy */;
+		};
+		372EFCA32182230100B85A11 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 372EFC6D218220C500B85A11 /* CironnupUI */;
+			targetProxy = 372EFCA22182230100B85A11 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		372EFC92218220D700B85A11 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				372EFC93218220D700B85A11 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		372EFC97218220DA00B85A11 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				372EFC98218220DA00B85A11 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		372EFC80218220C500B85A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		372EFC81218220C500B85A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		372EFC83218220C500B85A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 884B72FE71C66C97C5DFBED2 /* Pods-CironnupUI.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../Carthage/Build/iOS";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CironnupUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Foundation\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.noppelab.CironnupUI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		372EFC84218220C500B85A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9822F1BF712BE8B6253F66A2 /* Pods-CironnupUI.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = "";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = "$(PROJECT_DIR)/../Carthage/Build/iOS";
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = CironnupUI/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"-framework",
+					"\"Foundation\"",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.noppelab.CironnupUI;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		372EFC86218220C500B85A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FBQ6Z8AF3U;
+				INFOPLIST_FILE = CironnupUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.noppelab.CironnupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		372EFC87218220C500B85A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FBQ6Z8AF3U;
+				INFOPLIST_FILE = CironnupUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.noppelab.CironnupUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		372EFC9C218220DA00B85A11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FBQ6Z8AF3U;
+				INFOPLIST_FILE = CironnupUIApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.noppelab.CironnupUIApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		372EFC9D218220DA00B85A11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = FBQ6Z8AF3U;
+				INFOPLIST_FILE = CironnupUIApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.noppelab.CironnupUIApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		372EFC68218220C500B85A11 /* Build configuration list for PBXProject "CironnupUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372EFC80218220C500B85A11 /* Debug */,
+				372EFC81218220C500B85A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		372EFC82218220C500B85A11 /* Build configuration list for PBXNativeTarget "CironnupUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372EFC83218220C500B85A11 /* Debug */,
+				372EFC84218220C500B85A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		372EFC85218220C500B85A11 /* Build configuration list for PBXNativeTarget "CironnupUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372EFC86218220C500B85A11 /* Debug */,
+				372EFC87218220C500B85A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		372EFC9B218220DA00B85A11 /* Build configuration list for PBXNativeTarget "CironnupUIApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				372EFC9C218220DA00B85A11 /* Debug */,
+				372EFC9D218220DA00B85A11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 372EFC65218220C500B85A11 /* Project object */;
+}
