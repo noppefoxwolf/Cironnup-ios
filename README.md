@@ -1,6 +1,6 @@
 # Cironnup
 
-![](https://github.com/noppefoxwolf/Cironnup-ios/blob/master/meta/banner.png)
+![](https://github.com/noppefoxwolf/Cironnup-ios/blob/master/Meta/banner.png)
 
 [gab.ai](https://gab.ai) client for iOS
 
